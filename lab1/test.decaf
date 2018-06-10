@@ -1,0 +1,45 @@
+class test{
+    int val;
+    char ch;
+    float f;
+    float display(int a, int b){
+        /*
+        int x1 = 1;
+        int x2 = 2;
+        int x3 = 3;
+        int x4 = 0x4;
+        
+        */
+        x1 = x1 + 0;
+        x2 = x2 - 0;
+        x3 = x3 * 1;
+        x4 = x4 / 1;
+        x1 += 0;
+        x2 -= 0;
+        x3 *= 1;
+        x4 /= 1;
+        ++x1;
+        --x2;
+        if(a > b) ;
+        if(a < b) ;
+        if(a >= b) ;
+        if(a <= b) ;
+        if(a == b) ;
+        if(a != b) ;
+        if(x1 > x2 && x3 < x4) ;
+        if(x1 > x2 || x3 < x4) ;
+        if(!x1) ;
+        else ;
+        while(1){
+            break;
+        }
+        return 1.0;
+    }
+}
+
+class p_test extend test{
+    test t = new test();
+    int sayhello(void){
+        return 1;
+    }
+}
