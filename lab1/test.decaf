@@ -37,9 +37,10 @@ class test{
     }
 }
 
-class p_test extend test{
-    test t = new test();
-    int sayhello(void){
-        return 1;
+class p_test extends test{
+    int a;
+    int sayhello(int a){
+        a = 10;
+        return a;
     }
 }
